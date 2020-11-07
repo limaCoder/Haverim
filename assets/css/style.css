@@ -194,7 +194,7 @@ main {
 @media (max-width: 630px) {
   .main-col-content {
     align-items: center;
-    min-width: 630px;
+    width: 620px;
   }
 }
 
