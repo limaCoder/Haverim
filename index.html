@@ -7,29 +7,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
   <title>Haverim</title>
 </head>
 <body>
-  <header class="menu">
-    <div class="logo">
-      <img src="./assets/img/logo.png" alt="Grupo Haverim">
-    </div>
-    <input type="checkbox" id="click">
-      <label for="click" class="menu-btn">
+  <header class="menu"> <!-- Header -->
+    <nav class="navbar">
+      <span id="navbar-toggle">
         <i class="fas fa-bars"></i>
-      </label>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">O Grupo</a></li>
-        <li><a href="#">Atuação</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><i class="tel fas fa-phone-volume">13 3321.7933</i></li>
+      </span>
+      <img src="./assets/img/logo/logo.png" alt="Grupo Haverim">
+      <ul id="main-nav">
+        <li class="nav-links"><a href="./index.html">Home</a></li>
+        <li class="nav-links"><a href="#about-us">O Grupo</a></li>
+        <li class="nav-links"><a href="#map">Atuação</a></li>
+        <li class="nav-links"><a href="#features">Produtos</a></li>
+        <li class="nav-links"><a href="#form">Contato</a></li>
+        <li class="nav-links"><i class="pointer tel fas fa-phone-volume">13 3321.7933</i></li>
       </ul>
     </nav>
   </header>
-  <main>
+
+  <main> <!-- Carousel -->
     <div class="owl-carousel owl-theme">
       <div class="slide slide-1">
           <div class="slide-content">
@@ -53,38 +52,40 @@
         </div>
       </div>
     </div>
-    <div class="main-content">
+
+    <div class="main-content"> <!-- Services -->
       <div class="main-col-content orange1">
-        <img src="./assets/img/vacine.png" alt="">
+        <img src="./assets/img/icons/vacine.png" alt="">
         <div class="border"></div>
         <h3>Agilidade</h3>
         <p>Entrega rápida e prática em<br> toda a Baixada Santista.</p>
       </div>
       <div class="main-col-content orange2">
-        <img src="./assets/img/sneakers.png" alt="">
+        <img src="./assets/img/icons/sneakers.png" alt="">
         <div class="border"></div>
         <h3>Produtos Nestlé</h3>
         <p>Diversos produtos Nestlé<br> Health Science.</p>
       </div>
       <div class="main-col-content orange3">
-        <img src="./assets/img/gloves.png" alt="">
+        <img src="./assets/img/icons/gloves.png" alt="">
         <div class="border"></div>
         <h3>Nutrição</h3>
         <p>Alimentos que garantem uma<br> nutrição completa.</p>
       </div>
       <div class="main-col-content orange4">
-        <img src="./assets/img/helmet.png" alt="">
+        <img src="./assets/img/icons/helmet.png" alt="">
         <div class="border"></div>
         <h3>Especialização</h3>
         <p>Atendimento por equipe<br> especializada de nutricionista<br> e farmacêutico.</p>
       </div>
     </div>
   </main>
-  <section class="about-us">
+
+  <section id="about-us" class="about-us"> <!-- About Us -->
     <h1>Haverim</h1>
     <div class="about-us-content">
       <div class="about-us-image">
-        <img src="./assets/img/about-us.jpg" alt="Sobre nós">
+        <img src="./assets/img/home/about-us.jpg" alt="Sobre nós">
       </div>
       <p>A Haverim atua com Produtos Hospitalares,<br>
         comércio de instrumentos e materiais para uso<br>
@@ -106,28 +107,29 @@
       </p>
     </div>
   </section>
-  <section class="features">
+
+  <section id="features" class="features"> <!-- Features -->
     <h4>Confira</h4>
     <h3>Nossos Destaques</h3>
-    <!-- <div class="wrap-carousel">
-      <div class="owl-carousel owl-theme mini-carousel">
-        <div class="slide mini-slide slide-4">
-            <div class="slide-content">
-            </div>
-        </div>
-        <div class="slide mini-slide slide-5">
-            <div class="slide-content">
+    <div class="mini-carousel owl-carousel owl-theme">
+      <div class="mini-slide slide slide-4">
+          <div class="slide-content">
           </div>
+      </div>
+      <div class="mini-slide slide slide-5">
+          <div class="slide-content">
         </div>
-        <div class="slide mini-slide slide-6">
-            <div class="slide-content">
-          </div>
+      </div>
+      <div class="mini-slide slide slide-6">
+          <div class="slide-content">
         </div>
-    </div> -->
+      </div>
+    </div>
   </section>
-  <section class="products">
+
+  <section class="products"> <!-- Products -->
     <div class="product">
-      <img src="./assets/img/product01.png" alt="">
+      <img src="./assets/img/products/product01.png" alt="Trophic 1,5 - Hipercalórica">
       <p class="product-title">Trophic 1,5 - Hipercalórica<br>
         1.5 kcal por ml
       </p>
@@ -142,7 +144,7 @@
       <p class="new-price">por R$<span>21,23</span></p>
     </div>
     <div class="product">
-      <img src="./assets/img/product02.png" alt="">
+      <img src="./assets/img/products/product02.png" alt="Thicken UP Clear - 125 g">
       <p class="product-title">Thicken UP Clear - 125 g -<br>
           Espessante, Gelificante
       </p>
@@ -157,7 +159,7 @@
       <p class="new-price">por R$<span>59,00</span></p>
     </div>
     <div class="product">
-      <img src="./assets/img/product03.png" alt="">
+      <img src="./assets/img/products/product03.png" alt="Botina de Segurança">
       <p class="product-title">Botina de Segurança<br>
         Confeccionada em
       </p>
@@ -172,7 +174,7 @@
       <p class="new-price">por R$<span>21,23</span></p>
     </div>
     <div class="product">
-      <img src="./assets/img/product04.png" alt="">
+      <img src="./assets/img/products/product04.png" alt="Trophic Soya 1000 ml">
       <p class="product-title">Trophic Soya 1000 ml<br>
           1.2kcal por ml
       </p>
@@ -187,8 +189,9 @@
       <p class="new-price">por R$<span>14,82</span></p>
     </div>
   </section>
-  <section class="form">
-    <img src="./assets/img/coffee.jpg" alt="">
+
+  <section id="form" class="form"> <!-- Form -->
+    <img src="./assets/img/home/coffee.png" alt="Café">
     <div class="div-form">
       <h4>Solicite uma visita</h4>
       <p>Estamos sempre prontos para atender com<br>
@@ -202,18 +205,25 @@
         <input type="text" placeholder="Assunto">
         <textarea placeholder="Mensagem"></textarea>
         <div class="group-button">
-          <input class="form-btn" type="submit" value="Apagar"></input>
-          <input class="form-btn" type="submit" value="Enviar">
+          <div class="div-btn">
+            <input class="form-btn" type="submit" value="Apagar">
+            <i class="btn-icon-trash fas fa-trash-alt" aria-hidden="true"></i>
+          </div>
+          <div class="div-btn">
+            <input class="form-btn" type="submit" value="Enviar">
+            <i class="btn-icon-arrow-right fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </div>
         </div>
       </form>
     </div>
   </section>
-  <section class="blog">
+
+  <section class="blog"> <!-- Blog -->
     <h4>Nosso blog</h4>
     <h2>Dicas de saúde</h2>
     <div class="content-blog">
       <div class="post">
-        <img src="./assets/img/health-tips.jpg" alt="">
+        <img src="./assets/img/blog/health-tips.jpg" alt="">
         <h1>Saúde cognitiva</h1>
         <p>Declínios na saúde cognitiva associados à idade podem ser normais, mas<br>
            eles não precisam ser um problema grave. Tomar as medidas necessárias<br>
@@ -222,7 +232,7 @@
            o cérebro e cognição são aspectos que podem ajudar.</p>
       </div>
       <div class="post">
-        <img src="./assets/img/health-tips.jpg" alt="">
+        <img src="./assets/img/blog/health-tips.jpg" alt="">
         <h1>Saúde cognitiva</h1>
         <p>Declínios na saúde cognitiva associados à idade podem ser normais, mas<br>
            eles não precisam ser um problema grave. Tomar as medidas necessárias<br>
@@ -232,16 +242,18 @@
       </div>
     </div>
   </section>
-  <section class="map">
+
+  <section id="map" class="map"> <!-- Map -->
     <div class="map-content">
       <h4>Nossa atuação abrange<br>um raio de aproximadamente</h4>
       <p>200km dentro do Estado de São Paulo</p>
       <button class="map-button">Saiba Mais</button>
     </div>
   </section>
-  <footer class="footer">
+
+  <footer class="footer"> <!-- Footer -->
     <div class="logo-footer">
-      <img src="./assets/img/logo.png" alt="">
+      <img src="./assets/img/logo/logo.png" alt="Logo da Haverim">
     </div>
     <div class="info-contact">
       <div class="contact">
@@ -266,6 +278,7 @@
     </div>
     <div class="footer-info">
       <p>2018 - Haverim - Todos os direitos reservados</p>
+      <img src="./assets/img//logo/marcasite.png" alt="Desenvolvido por Marcasite">
       <ul>
         <li><a href="#">Home |</a></li>
         <li><a href="#">O Grupo |</a></li>
@@ -275,6 +288,7 @@
       </ul>
     </div>
   </footer>
+
   <!-- Jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Owl Carousel -->
