@@ -625,6 +625,12 @@ textarea {
   }
 }
 
+@media(max-width: 800px) {
+  .footer-info {
+    flex-direction: column;
+  }
+}
+
 .footer-info p {
   color: #b3b3b3;
 }
