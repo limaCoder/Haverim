@@ -134,7 +134,7 @@ nav ul li a:hover {
 }
 
 #navbar-toggle:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Desktop Navbar */
@@ -208,7 +208,7 @@ main {
 }
 
 .orange2 {
-  background-color: #ff912e;
+  background-color: #ff911a;
 }
 
 .orange3 {
